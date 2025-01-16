@@ -1784,6 +1784,7 @@
     "helpText": "This standard creates a Spam filter policy similar to the default strict policy.",
     "addedComponent": [
       {
+<<<<<<< HEAD
         "type": "number",
         "label": "Bulk email threshold (Default 7)",
         "name": "standards.SpamFilterPolicy.BulkThreshold",
@@ -1792,16 +1793,19 @@
       {
         "type": "autoComplete",
         "multiple": false,
+=======
+        "type": "Select",
+>>>>>>> parent of 8db8c70e (Merge pull request #2764 from KelvinTegelaar/dev)
         "label": "Spam Action",
         "name": "standards.SpamFilterPolicy.SpamAction",
         "options": [
           {
-            "label": "Quarantine the message",
-            "value": "Quarantine"
-          },
-          {
             "label": "Move message to Junk Email folder",
             "value": "MoveToJmf"
+          },
+          {
+            "label": "Quarantine the message",
+            "value": "Quarantine"
           }
         ]
       },
@@ -1826,6 +1830,7 @@
         ]
       },
       {
+<<<<<<< HEAD
         "type": "autoComplete",
         "multiple": false,
         "label": "High Confidence Spam Action",
@@ -1844,6 +1849,9 @@
       {
         "type": "autoComplete",
         "multiple": false,
+=======
+        "type": "Select",
+>>>>>>> parent of 8db8c70e (Merge pull request #2764 from KelvinTegelaar/dev)
         "label": "High Confidence Spam Quarantine Tag",
         "name": "standards.SpamFilterPolicy.HighConfidenceSpamQuarantineTag",
         "options": [
@@ -1862,6 +1870,7 @@
         ]
       },
       {
+<<<<<<< HEAD
         "type": "autoComplete",
         "multiple": false,
         "label": "Bulk Spam Action",
@@ -1880,6 +1889,9 @@
       {
         "type": "autoComplete",
         "multiple": false,
+=======
+        "type": "Select",
+>>>>>>> parent of 8db8c70e (Merge pull request #2764 from KelvinTegelaar/dev)
         "label": "Bulk Quarantine Tag",
         "name": "standards.SpamFilterPolicy.BulkQuarantineTag",
         "options": [
@@ -1898,6 +1910,7 @@
         ]
       },
       {
+<<<<<<< HEAD
         "type": "autoComplete",
         "multiple": false,
         "label": "Phish Spam Action",
@@ -1916,6 +1929,9 @@
       {
         "type": "autoComplete",
         "multiple": false,
+=======
+        "type": "Select",
+>>>>>>> parent of 8db8c70e (Merge pull request #2764 from KelvinTegelaar/dev)
         "label": "Phish Quarantine Tag",
         "name": "standards.SpamFilterPolicy.PhishQuarantineTag",
         "options": [
@@ -2499,6 +2515,7 @@
     "impactColour": "danger",
     "powershellEquivalent": "Update-MgAdminSharepointSetting",
     "recommendedBy": []
+<<<<<<< HEAD
   },
   {
     "name": "standards.TeamsGlobalMeetingPolicy",
@@ -3139,5 +3156,7 @@
         }
       }
     ]
+=======
+>>>>>>> parent of 8db8c70e (Merge pull request #2764 from KelvinTegelaar/dev)
   }
 ]
